@@ -33,9 +33,7 @@ body {
 .section-title {
     margin-bottom: 50px;
 
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.15;
+    @include font(700, 36px, 1.15);
     text-align: center;
 
     color: var(--title-text-color);

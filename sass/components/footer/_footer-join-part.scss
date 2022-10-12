@@ -6,9 +6,8 @@
 .sign__text {
   margin-bottom: 20px;
   text-transform: uppercase;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  
+  @include font(700, 16px, 1.14);
 
   color: var(--primary-white-color);
 }

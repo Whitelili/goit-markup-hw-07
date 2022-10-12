@@ -24,9 +24,7 @@
   margin-bottom: 30px;
   max-width: 700px;
 
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  @include font(900, 44px, 1.36);
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
@@ -38,10 +36,7 @@
   min-width: 216px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  @include font(700, 16px, 1.88);
   letter-spacing: 0.06em;
 
   color: var(--primary-white-color);

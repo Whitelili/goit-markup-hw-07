@@ -12,9 +12,8 @@
 
     height: 100%;
     padding: 63px 24px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.56;
+   
+    @include font(400, 18px, 1.56);
 
     background-color: var(--secondary-animation-bg-color);
     color: var(--primary-white-color);

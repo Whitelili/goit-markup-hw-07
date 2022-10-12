@@ -31,9 +31,8 @@
 
 .team-list__title {
   margin-bottom: 10px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+ 
+  @include font(500, 16px, 1.19);
 
   color: var(--title-text-color);
 }
